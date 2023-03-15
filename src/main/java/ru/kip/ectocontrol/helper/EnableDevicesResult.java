@@ -1,4 +1,4 @@
-package ru.kip.ectocontrol;
+package ru.kip.ectocontrol.helper;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

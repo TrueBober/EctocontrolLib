@@ -4,10 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import lombok.RequiredArgsConstructor;
 import ru.kip.ectocontrol.*;
-import ru.kip.ectocontrol.helper.DevicesDetails;
-import ru.kip.ectocontrol.helper.DevicesIdsList;
-import ru.kip.ectocontrol.helper.DevicesList;
-import ru.kip.ectocontrol.helper.DevicesState;
+import ru.kip.ectocontrol.helper.*;
 import ru.kip.ectocontrol.utils.JsonCodec;
 
 import java.io.IOException;
