@@ -1,11 +1,13 @@
-package ru.kip.ectocontrol.impl;
+package ru.axkip.ectocontrol.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import lombok.RequiredArgsConstructor;
-import ru.kip.ectocontrol.*;
-import ru.kip.ectocontrol.helper.*;
-import ru.kip.ectocontrol.utils.JsonCodec;
+import ru.axkip.ectocontrol.Device;
+import ru.axkip.ectocontrol.DeviceDetails;
+import ru.axkip.ectocontrol.Ectocontrol;
+import ru.axkip.ectocontrol.helper.*;
+import ru.axkip.ectocontrol.utils.JsonCodec;
 
 import java.io.IOException;
 import java.net.URI;

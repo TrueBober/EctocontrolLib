@@ -1,8 +1,8 @@
-package ru.kip.ectocontrol.helper;
+package ru.axkip.ectocontrol.helper;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.kip.ectocontrol.DeviceDetails;
+import ru.axkip.ectocontrol.DeviceDetails;
 
 import java.util.List;
 

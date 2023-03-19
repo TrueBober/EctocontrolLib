@@ -1,10 +1,9 @@
-package ru.kip.ectocontrol;
+package ru.axkip.ectocontrol;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.kip.ectocontrol.utils.JsonCodec;
-import ru.kip.ectocontrol.utils.StringUtils;
+import ru.axkip.ectocontrol.utils.JsonCodec;
+import ru.axkip.ectocontrol.utils.StringUtils;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package ru.kip.ectocontrol.helper;
+package ru.axkip.ectocontrol.helper;
 
 import lombok.*;
 

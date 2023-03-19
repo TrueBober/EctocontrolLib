@@ -1,4 +1,4 @@
-package ru.kip.ectocontrol;
+package ru.axkip.ectocontrol;
 
 import java.util.List;
 

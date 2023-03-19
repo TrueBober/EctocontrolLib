@@ -1,4 +1,4 @@
-package ru.kip.ectocontrol.utils;
+package ru.axkip.ectocontrol.utils;
 
 public class StringUtils {
     private StringUtils() {
