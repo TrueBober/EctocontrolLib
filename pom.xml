@@ -11,6 +11,27 @@
 
     <name>Ectocontrol Lib</name>
     <description>Неофициальная библиотека для доступа к API системы Ectocontrol</description>
+    <url>https://github.com/TrueBober/EctocontrolLib</url>
+
+    <licenses>
+        <license>
+            <name>GPL-v3.0</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/TrueBober/EctocontrolLib.git</connection>
+        <url>https://github.com/TrueBober/EctocontrolLib</url>
+        <developerConnection>scm:git:https://github.com/TrueBober/EctocontrolLib.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>axkip</id>
+            <name>Kiporskiy Aleksey</name>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -43,5 +64,12 @@
             <version>${jackson.core}</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
