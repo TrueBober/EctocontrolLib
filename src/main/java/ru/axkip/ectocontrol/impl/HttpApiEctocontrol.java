@@ -24,7 +24,7 @@ import java.util.List;
 public class HttpApiEctocontrol implements Ectocontrol {
 
     /**
-     * Хост для доступа к сервису (например, http://my.ectocontrol.ru)
+     * Хост для доступа к сервису (например, https://my.ectostroy.ru)
      */
     private final String host;
 
@@ -116,7 +116,7 @@ public class HttpApiEctocontrol implements Ectocontrol {
         return HttpRequest.newBuilder()
                 .method(method, publisher)
                 .uri(uri)
-                .header("Authorization", token)
+                .header("Authorization", "Bearer " + token)
                 .build();
     }
 
